@@ -10,9 +10,9 @@ const Queue = () =>{
             return -1
         }
 
-        const value = data[data.length-1];
-        data.splice(data.length-1,1)
-        return value
+       // const value = data[data.length-1];
+        //data.splice(data.length-1,1)
+        return data.splice(data.length-1,1)
     }
 
     const print = () => console.log(data);
@@ -27,14 +27,17 @@ const Queue = () =>{
 
 const queue = Queue();
 
-queue.add(1)
+queue.add(1);
 queue.add(2);
 queue.add(3);
 queue.add(4);
 queue.add(5);
 
-queue.print()
+queue.print();
 
-console.log(queue.remove())
-console.log(queue.remove())
+console.log(queue.remove());
+console.log(queue.remove());
+console.log(queue.remove());
+
+queue.print();
 
