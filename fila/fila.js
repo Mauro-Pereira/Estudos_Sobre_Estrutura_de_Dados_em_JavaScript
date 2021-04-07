@@ -34,3 +34,10 @@ queue.add(4);
 queue.add(5);
 
 queue.print()
+
+console.log(queue.remove())
+console.log(queue.remove())
+console.log(queue.remove())
+console.log(queue.remove())
+console.log(queue.remove())
+console.log(queue.remove())
