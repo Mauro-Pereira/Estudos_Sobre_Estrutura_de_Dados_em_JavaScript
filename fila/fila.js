@@ -37,7 +37,4 @@ queue.print()
 
 console.log(queue.remove())
 console.log(queue.remove())
-console.log(queue.remove())
-console.log(queue.remove())
-console.log(queue.remove())
-console.log(queue.remove())
+
